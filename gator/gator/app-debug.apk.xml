@@ -1,0 +1,30 @@
+<GUIHierarchy app="app-debug.apk">
+  <Activity name="com.javatechig.serviceexample.HelloActivity">
+    <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.Button" id="2130903041" idName="start_service">
+          <Text>Start Service</Text>
+          <EventAndHandler event="click" handler="&lt;com.javatechig.serviceexample.HelloActivity$1: void onClick(android.view.View)&gt;" />
+        </View>
+        <View type="android.widget.Button" id="2130903040" idName="start_Camera">
+          <Text>Stop Service</Text>
+          <EventAndHandler event="click" handler="&lt;com.javatechig.serviceexample.HelloActivity$3: void onClick(android.view.View)&gt;" />
+        </View>
+        <View type="android.widget.TextView" id="2130903043" idName="textView">
+          <Text>Service Example</Text>
+        </View>
+        <View type="android.widget.Button" id="2130903042" idName="stop_Service">
+          <Text>Stop Service</Text>
+          <EventAndHandler event="click" handler="&lt;com.javatechig.serviceexample.HelloActivity$2: void onClick(android.view.View)&gt;" />
+        </View>
+        <View type="android.widget.TextView" id="2130903044" idName="textView2">
+          <Text>- A service is a application component used to perform long running tasks in background. 
+
+- A service can run in the background indefinitely, even if component that started the service is destroyed.
+
+- Usually a service always performs a single operation and stops itself once intended task is complete.</Text>
+        </View>
+      </Child>
+    </View>
+  </Activity>
+</GUIHierarchy>

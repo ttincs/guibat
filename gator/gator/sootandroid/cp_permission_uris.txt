@@ -1,0 +1,39 @@
+Permission:android.permission.READ_CONTACTS
+6 Uri:
+content://icc
+content://com.android.social
+content://contacts
+content://com.android.contacts
+content://call_log
+content://com.android.exchange.directory.provider
+Permission:android.permission.READ_SMS
+4 Uri:
+content://sms
+content://mms-sms
+content://mms
+content://com.android.mms.SuggestionsProvider
+Permission:android.permission.WRITE_CALENDAR
+1 Uri:
+content://com.android.calendar
+Permission:android.permission.READ_CALENDAR
+1 Uri:
+content://com.android.calendar
+Permission:android.permission.WRITE_EXTERNAL_STORAGE
+1 Uri:
+content://media/external/
+Permission:android.permission.WRITE_CONTACTS
+5 Uri:
+content://icc
+content://com.android.social
+content://contacts
+content://com.android.contacts
+content://call_log
+Permission:android.permission.WRITE_CALL_LOG
+1 Uri:
+content://call_log
+Permission:android.permission.READ_CALL_LOG
+1 Uri:
+content://call_log
+Permission:android.permission.READ_EXTERNAL_STORAGE
+1 Uri:
+content://media/external/
